@@ -1,0 +1,31 @@
+/* color palettes quiz and history site: Huvudbakgrund: #FAFAFA eller #F5F5F5 (Ljus grå)
+Text: #333333 (Nästan svart)
+Rubriker och viktiga element: #4A752C (Militärgrön)
+Sidfot och mindre viktiga element: #8A8A8A (Mörkgrå)
+Knappar eller CTA: #DAA520 (Guld)
+font-family: 'Special Elite', cursive;
+Accentfärger: #003366 (Navyblå) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body */
+body {
+    background-color: #F5f5f5;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    color: #333333;
+}
+/* General styling for ALL headlines */
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+    font-family: 'Special ELite', cursive;
+    font-weight: 300;
+}
+/* Header Styling */
+header {
+    background-color: #4A752C;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
